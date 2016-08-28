@@ -15,6 +15,7 @@
 
 * 審計日誌（也稱為一個審核跟踪）記錄了可能影響一個特定的操作或事件的任何活動的時間順序的文檔。詳細信息通常包括被訪問的資源，目的地址和源地址，對於誰訪問資源的人時間戳和用戶登錄信息。
 
+### LOG = timestamp + Data
 
 ![logsample](https://github.com/PolinChen/logcenter/blob/master/img/logsample1.png)
 
