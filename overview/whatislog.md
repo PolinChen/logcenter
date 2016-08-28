@@ -19,10 +19,80 @@
 
 ![logsample](https://github.com/PolinChen/logcenter/blob/master/img/logsample1.png)
 
+
+
+
+
+## 日誌文件分析的挑戰 (the challenge of log analysis)
+
+
+數量龐大，處理困難
+過於分散，集中不易
+格式複雜，使用不易
+應用複雜，需要zhuan
+
 日誌文件還對跟踪的具有很少或幾乎沒有人的交互應用，諸如服務器應用是重要的。有當日誌文件太難以讀取或使感倍，它是那麼該日誌文件分析是必要的。日誌文件分析通常由某種計算機程序，使日誌文件的信息更簡潔，易讀的格式進行。日誌文件也可以用於關聯服務器之間的數據，並發現可能需要一個主要解決方案來修復它們所有的不同系統之間的共同問題。
+
+## 為什麼需要日誌管理？
+
+今天，大多數企業比以往更嚴格的預算和更少的資源，但他們正在經歷不斷增加的壓力，提高安全性，遵守法規，以不斷提高可用性。
+
+政府和行業法規在最近幾年變得更嚴謹的規範，針對沒有遵守高級管理人員，可能面對的罰款、甚至監禁。隨著減少員工，IT組織現在被迫投入資源對合規性的舉措，同時也繼續保證安全性和滿足服務水平協議。
+
+在過去，系統管理員或網路分析師，只會從一些特定的系統收集日誌數據中， 進行特定的搜索數據中的事件.如今，日誌管理是一個組織的要求，要求全面的功能，超越了數據收集涵蓋正常化，分析，報告和災難的證明依據。
+
+龐大的系統基礎設備，產生海量負載的日誌數據，已經成為IT 部門的巨大的挑戰。
+
+## 日誌管理挑戰
+最近的合規要求不僅要求你收集所有日誌，而且他們審查
+定期，可搜索，並保存在原來的，不變的，原始形式的任務，具體
+時間框架。
+
+日誌也可以在識別安全事故，違規行為，欺詐行為非常有用，操作上的問題，他們出現後不久。在執行審計時，法醫他們也有價值分析，內部調查，建立基線，並確定運營趨勢和長期
+問題。然而，無限各種日誌數據格式使得不可能利用數據而不數據標準化。
+
+這是合理的假設各種日誌數據源和數據量將總是增大。除了這種挑戰是數據格式的變化以及這些資源分佈特性;在此外，每一個網絡基礎設施是在變化的恆定狀態下，用新的系統、應用程序、
+用戶和設備一年中的每一天。
+
+這將創建各種日誌管理工作的具體挑戰。這些挑戰分為三個方面：收集，分析和審查，並存檔。
+
+## 日誌採集
+當我們討論的日誌數據，我們討論了廣泛和不斷變化的數據集的範圍必須
+被佔。
+
+* 日誌數據是多種多樣的：
+* * 不僅系統、應用程序、網絡設備有其自己的日誌與其中不同的捕獲特定數據的類型，但是單個日誌源可以有多個日誌被捕獲。例如，應用程序通常具有多個日誌文件，每個包含特定類型
+數據的。
+* 日誌數據源分散
+* 
+* *。數據源可能位於內部預置內
+* 基礎設施，數據中心並置，託管與主機託管服務提供商，還是在雲中。
+* 這種基礎結構可單獨地或以混合環境中進行管理。日誌集合必須
+* 跨越所有這些環境。
+* 日誌數據源不斷變化。在任何時候一個新的系統，應用程序或網絡設備可以
+* 聯機，並開始產生新的日誌數據。雲實例可能推出數天或數
+* 小時，然後終止。日誌管理解決方案必須考慮到這些變化，否則
+* 100％的日誌收集將是不可能的。否則，一個組織的風險發現，日誌
+* 源尚未收集到幾個星期或幾個月後，可能在應對核數師
+* 的問題。
+* 日誌數據可能包含敏感信息，如從電子郵件摘錄，用戶名和
+* 密碼。這引起了安全和隱私的擔憂使得需要適當的日誌數據的安全性。日誌
+* 7日誌管理最佳實踐
+* 當被運送到任何集中收集系統不當緊固時容易
+* 有意或無意的更改或銷毀。
 
 參考資料：
 
 [log file1](http://http://whatis.techtarget.com/definition/log-log-file)
 
 [log file2](http://http://www.brickmarketing.com/define-log-file.htm)
+
+[Log Management Best Practices](https://www.alertlogic.com/assets/log-manager/Log-Management-Best-Practices.pdf)－ pdf: The Benefits of Automated Log Management
+
+[Advances and Challenges in Log Analysis](http://queue.acm.org/detail.cfm?id=2082137) ＊ 
+
+[Top 4 Log Management Challenges](https://blog.logentries.com/2015/01/infographic-top-4-log-management-challenges/) - Infographic: 
+
+[ 9th log management survey (2014). ](https://www.sans.org/reading-room/whitepapers/analyst/ninth-log-management-survey-report-35497) Log Collection Practices and Challenges
+
+[Challenges in Log Management ](https://blog.compass-security.com/2014/10/challenges-in-log-management/)
