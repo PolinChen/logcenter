@@ -1,2 +1,1 @@
-# logcenter.github.io
-# logcenter
+# unixtips
